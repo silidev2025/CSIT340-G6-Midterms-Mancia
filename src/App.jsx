@@ -1,4 +1,7 @@
 import { useState } from "react";
+import Summary from "./components/Summary";
+import PlanPicker from "./components/PlanPicker";
+import Footer from "./components/Footer";
 
 function App() {
   const [seats, setSeats] = useState(1);
