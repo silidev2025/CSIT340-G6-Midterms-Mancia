@@ -1,6 +1,8 @@
 import { useState } from "react";
+import Navbar from "./components/Navbar";
 import Summary from "./components/Summary";
 import PlanPicker from "./components/PlanPicker";
+import PlanCard from "./components/PlanCard";
 import Footer from "./components/Footer";
 
 function App() {
